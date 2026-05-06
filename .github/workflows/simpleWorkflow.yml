@@ -15,7 +15,7 @@ jobs:
         id: shellStep
         shell: python
         run: print("This step is using python")
-      - id: shellStep
+      - name: shellStep
         shell: python
         run: print("This step is using python")
           
