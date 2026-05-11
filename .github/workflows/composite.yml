@@ -10,6 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: ./
+        run: echo ls -R
         id: composite-action
         with:
           number1: 2
