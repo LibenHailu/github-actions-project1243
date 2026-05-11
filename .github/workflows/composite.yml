@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: echo ls -R
+      - run: ls -R
       - uses: ./
         id: composite-action
         with:
