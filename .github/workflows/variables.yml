@@ -2,7 +2,7 @@ name: variables and secrets
 env:
   WF_VAR: "Workflow level variable."
 on:
-  push:
+  # push:
 
 jobs:
   test_expressions:
