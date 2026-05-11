@@ -1,7 +1,7 @@
 name: jobs
 
 on: 
-  push:
+  # push:
 
 jobs:
   concurrency-job2:
