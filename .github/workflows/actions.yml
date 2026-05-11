@@ -1,7 +1,7 @@
 name: actions
 
 on:
-  push:
+  #push:
 
 jobs:
   test-actions:
