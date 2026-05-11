@@ -1,7 +1,7 @@
 name: artifacts
 
 on:
-  push:
+  #push:
 
 jobs:
   download-artifact:
